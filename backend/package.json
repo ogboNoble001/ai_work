@@ -2,11 +2,11 @@
   "name": "hf-chat-api",
   "version": "1.0.0",
   "description": "Backend API for Hugging Face chat completions",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "keywords": ["huggingface", "api", "chat"],
   "author": "",
